@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECTORS</title>
+    <style>
+        div{
+            color: red ;background-color: yellow;
+        }
+        .red{
+            color: black;background-color: wheat;
+        }
+#green{
+    color: blue;background-color: brown;
+}
+div > p{
+    color: green;background-color: black;
+}
+*{
+    padding: 0%;
+    
+}
+
+    a:visited{
+        color: black;
+    }
+    a:active{
+        color: red;
+    }
+    a:hover{
+        color: white
+
+    }
+    .black{
+        color: brown;background-color: bisque;
+    }
+
+    </style>
+</head>
+<body>
+    
+    <div>
+        element selector will is used  to style the all elements the are used like if we create 3 div classes and style div class the whole 3 div classes will be changed at a time  
+    </div>
+    <div> two</div>
+    <div>three</div>
+    <div class="red">
+        Class selector is a selector which we can put different types of styling for the same elements
+    </div> 
+    <div id="green">
+        ID selector is same as like the class selector but accessing the id selector is a different kind using # we should access it 
+    </div>
+    <div>
+        <p>child selector is a type where we can access the inner elements and style then according to to ourselves</p>
+    </div>
+    <div>
+        universal selector is used to style whole the element like padding and width and all things
+    </div>
+    <div class="black">
+        pseudo selectors are used to style the links there are many pseudo selectors which we can style the links by using them<br>
+        <a href="htpp//www.google.com">go GOOGLE</a>
+        <a href="htpp//www.facebook.com">go FACEBOK</a>
+    </div>
+
+</body>
+</html>
